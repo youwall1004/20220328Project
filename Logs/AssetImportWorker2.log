@@ -1,0 +1,997 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Download/UnityProject/NewProject/CurrentProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+4042
+Successfully changed project path to: D:/Download/UnityProject/NewProject/CurrentProject
+D:/Download/UnityProject/NewProject/CurrentProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Download/UnityProject/NewProject/CurrentProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity Hub/editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001748 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Download\UnityProject\NewProject\CurrentProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 2.997500 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.078200 ms MarkObjects: 2.582000 ms  DeleteObjects: 0.100100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Player.controller
+  artifactKey: Guid(5004484cc7a02f5449bfae890ec9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.controller using Guid(5004484cc7a02f5449bfae890ec9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753f49843a69f084f8b522362ff506b9') in 0.058618 seconds 
+  Import took 0.062625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.665730 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Back_Hand_Punch.fbx
+  artifactKey: Guid(78725ea6545651d4d91c228639140ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Back_Hand_Punch.fbx using Guid(78725ea6545651d4d91c228639140ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7477ffb531cc4d57d65b61ddf3e678') in 0.039184 seconds 
+  Import took 0.043685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Front_Kick.fbx
+  artifactKey: Guid(5ff084318b997a9438b39b1eab86d9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Front_Kick.fbx using Guid(5ff084318b997a9438b39b1eab86d9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78a5ac28ccd87f5e291c904919c9011') in 0.030888 seconds 
+  Import took 0.035369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Uppercut.fbx
+  artifactKey: Guid(929e9738c92a8504881aef61732c202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Uppercut.fbx using Guid(929e9738c92a8504881aef61732c202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf0ca27d61e0ff0ec5892634a7d7438') in 0.007731 seconds 
+  Import took 0.012179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_Heavy.fbx
+  artifactKey: Guid(a7dd119fea6a64742b4995faee2127f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_Heavy.fbx using Guid(a7dd119fea6a64742b4995faee2127f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33cdb33ef79f119ba2b09b7b447583c') in 0.009525 seconds 
+  Import took 0.014524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Plunge_Idle.fbx
+  artifactKey: Guid(4c507ef7413be354d82de3d45c03fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Plunge_Idle.fbx using Guid(4c507ef7413be354d82de3d45c03fdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e13128aa97a1957470bf42e3c1c638') in 0.009634 seconds 
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Plunge.fbx
+  artifactKey: Guid(3e7319297987c96429cc55f15813a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Plunge.fbx using Guid(3e7319297987c96429cc55f15813a9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59178932847aedea16505fb47d3abb3c') in 0.010104 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@ThrowObject.fbx
+  artifactKey: Guid(c1b666945236bc24abbbf841ec6287e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@ThrowObject.fbx using Guid(c1b666945236bc24abbbf841ec6287e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee28ab72ad78d1f765ae9422608b6988') in 0.009166 seconds 
+  Import took 0.013382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Spinning_Kick.fbx
+  artifactKey: Guid(45075cbbebdd9d04fb1a24ef33b4a760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Spinning_Kick.fbx using Guid(45075cbbebdd9d04fb1a24ef33b4a760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf0cd5b0487051a26e1b31a406d76bd') in 0.009500 seconds 
+  Import took 0.014956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_R.fbx
+  artifactKey: Guid(156dac4da55f663438adae2e9f74342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_R.fbx using Guid(156dac4da55f663438adae2e9f74342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec0f21d293d1d5190ae06491845006a') in 0.008446 seconds 
+  Import took 0.013429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_High_KicK.fbx
+  artifactKey: Guid(eb610eb89a55e6545bec4870ff05fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_High_KicK.fbx using Guid(eb610eb89a55e6545bec4870ff05fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa0faa6c699538e3cfe3f01d3f321f') in 0.008846 seconds 
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Hook.fbx
+  artifactKey: Guid(6be8d93e79399314094a29f0f761ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Combat_Hook.fbx using Guid(6be8d93e79399314094a29f0f761ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186530b368c935b7dd95b98ac26c3062') in 0.008694 seconds 
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_L.fbx
+  artifactKey: Guid(d5665d34a44842640a4943c0562d8bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Combat/SK_Mannequin@Punch_L.fbx using Guid(d5665d34a44842640a4943c0562d8bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e4f3007fd8044fd63bbbba997dd2e3') in 0.009106 seconds 
+  Import took 0.013328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.058755 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola
+  artifactKey: Guid(069bff26d75218e498ea8cf5e408b721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola using Guid(069bff26d75218e498ea8cf5e408b721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279a7d22de4c9ba5cdf425e65a6e837') in 0.002194 seconds 
+  Import took 0.006512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259610 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Climb.fbx
+  artifactKey: Guid(3ad531a7fbcb8a949950115d78a49244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Climb.fbx using Guid(3ad531a7fbcb8a949950115d78a49244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8d68f0648023c2ee0a15154811a184') in 0.034698 seconds 
+  Import took 0.038457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Bwd_Start.fbx
+  artifactKey: Guid(62ad5173d34e4d443bb58545416d76c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Bwd_Start.fbx using Guid(62ad5173d34e4d443bb58545416d76c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce95bbcad3bc6d45641e01775ad46a') in 0.060308 seconds 
+  Import took 0.063749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Exit.fbx
+  artifactKey: Guid(1549648a939e035448339148d3b85a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Exit.fbx using Guid(1549648a939e035448339148d3b85a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33348558e4c31ab8439bd13189dde180') in 0.023249 seconds 
+  Import took 0.027003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Fwd_Start.fbx
+  artifactKey: Guid(72ff06ce514a02c4d9ea78ceaa1b2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Fwd_Start.fbx using Guid(72ff06ce514a02c4d9ea78ceaa1b2fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aa67dbf81afcc428edcaeee3a3a073') in 0.019761 seconds 
+  Import took 0.023447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Exit_Water.fbx
+  artifactKey: Guid(63621736d5be4564a89d5adb5516f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Exit_Water.fbx using Guid(63621736d5be4564a89d5adb5516f35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ede40209c1ee44ecae712d211b4a92') in 0.015617 seconds 
+  Import took 0.019025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Turn_L.fbx
+  artifactKey: Guid(929eb564147ac6b4398d6e66fb4a9b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Turn_L.fbx using Guid(929eb564147ac6b4398d6e66fb4a9b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f5e76a9492794764effaea256b0725') in 0.010901 seconds 
+  Import took 0.015093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Idle.fbx
+  artifactKey: Guid(758f6ce001c689746827e147d5060972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Idle.fbx using Guid(758f6ce001c689746827e147d5060972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5858e1419f9edcfa4be9ecdc46d68e1d') in 0.019677 seconds 
+  Import took 0.023988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Enter.fbx
+  artifactKey: Guid(3f6c7d69d81d3b640a9c80bf25d3ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Enter.fbx using Guid(3f6c7d69d81d3b640a9c80bf25d3ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a81ed2f4bf2b39da5c297b60040f49') in 0.047953 seconds 
+  Import took 0.052041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Bwd.fbx
+  artifactKey: Guid(b5f222f4849fffc42b6f1739cfd64cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Bwd.fbx using Guid(b5f222f4849fffc42b6f1739cfd64cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de2572a35e25842bf1e8d4a4ee99d38') in 0.010508 seconds 
+  Import took 0.014845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Fwd.fbx
+  artifactKey: Guid(322fa8756d9b7d04589e877a30102e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Move_Fwd.fbx using Guid(322fa8756d9b7d04589e877a30102e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ef327e48faa77788e01af4a33ae4fc') in 0.018529 seconds 
+  Import took 0.022734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Turn_R.fbx
+  artifactKey: Guid(05907573855ed7840b96198b242fcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/Gondola/SK_Mannequin@Gondola_Turn_R.fbx using Guid(05907573855ed7840b96198b242fcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b5ee0f4a64eef01f96497ee8252e8d') in 0.025891 seconds 
+  Import took 0.029822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.907567 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/ObstaclesWallpoints
+  artifactKey: Guid(2e7b85f17c592884185f63fc028af463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/ObstaclesWallpoints using Guid(2e7b85f17c592884185f63fc028af463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24928348c9916aa87c6c6edb88e084e1') in 0.002960 seconds 
+  Import took 0.007487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.380793 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield
+  artifactKey: Guid(3621eab1a823e0e449edc77a54a15cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield using Guid(3621eab1a823e0e449edc77a54a15cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308ca7fedc50c841c6bc3d0655180bb7') in 0.002269 seconds 
+  Import took 0.006236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.282708 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Idle.fbx
+  artifactKey: Guid(478a61e5c8f160b47b1107ecf17aab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Idle.fbx using Guid(478a61e5c8f160b47b1107ecf17aab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0779539885db9924ee8d806865467f6') in 0.046573 seconds 
+  Import took 0.050129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Heavy01.fbx
+  artifactKey: Guid(31253f7a056c2224ba088bd7c75209d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Heavy01.fbx using Guid(31253f7a056c2224ba088bd7c75209d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a94d8c3933b51b0694e911424d58859') in 0.043637 seconds 
+  Import took 0.046966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Roll.fbx
+  artifactKey: Guid(9ef22c40756e4614a94a72982af855a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Roll.fbx using Guid(9ef22c40756e4614a94a72982af855a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122065a5b3c07e3b94309fecce0617bc') in 0.022827 seconds 
+  Import took 0.026400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd_R.fbx
+  artifactKey: Guid(ae6d0c8503fa77e49a23aea3f04f31ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd_R.fbx using Guid(ae6d0c8503fa77e49a23aea3f04f31ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc74e5408f4ad6c2c470d9aa7c9e2b8') in 0.009330 seconds 
+  Import took 0.013882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_idle.fbx
+  artifactKey: Guid(ceaa9caceed88274b8a9d91543322f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_idle.fbx using Guid(ceaa9caceed88274b8a9d91543322f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e3aa6bbfd0bb81e43f0a902731edd') in 0.011585 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd.fbx
+  artifactKey: Guid(42837e0bd54bc7244a5047b39c2b1b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd.fbx using Guid(42837e0bd54bc7244a5047b39c2b1b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a996bd92d4e63a29e6674b97c1d503a') in 0.010560 seconds 
+  Import took 0.014854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash03.fbx
+  artifactKey: Guid(452b4142a4adb7e49a5a02d837a35333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash03.fbx using Guid(452b4142a4adb7e49a5a02d837a35333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674cdbde5df53f9738b6ef5e6acb7fec') in 0.017755 seconds 
+  Import took 0.022558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Sprint_Fwd.fbx
+  artifactKey: Guid(c70fe9f19f18ebc46b14409e21774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Sprint_Fwd.fbx using Guid(c70fe9f19f18ebc46b14409e21774d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25137576f334edfb7af45053b9c60f50') in 0.039704 seconds 
+  Import took 0.044386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_L.fbx
+  artifactKey: Guid(17dbf67b0ffec014daf40722d01547df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_L.fbx using Guid(17dbf67b0ffec014daf40722d01547df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704c8027959ec471cf0dcd3ca5f7364') in 0.023065 seconds 
+  Import took 0.027092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Equip.fbx
+  artifactKey: Guid(e5a704465dfe9b24980381769f86b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Equip.fbx using Guid(e5a704465dfe9b24980381769f86b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7049b935dd87a718ca24fe72d5fec86') in 0.029510 seconds 
+  Import took 0.032796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash02.fbx
+  artifactKey: Guid(a9f5c49c969803d40813dde5f1faa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash02.fbx using Guid(a9f5c49c969803d40813dde5f1faa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be925bf177553d7430e673d7fdfdce2') in 0.017367 seconds 
+  Import took 0.021027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Hit.fbx
+  artifactKey: Guid(e9504e9d363bf894290829c1402d03d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Hit.fbx using Guid(e9504e9d363bf894290829c1402d03d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd5f3989fdc06d576930d4cb1b6091') in 0.026775 seconds 
+  Import took 0.030604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_strafe_fwd.fbx
+  artifactKey: Guid(da77c0cf41f003c458c6ea09a110fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_strafe_fwd.fbx using Guid(da77c0cf41f003c458c6ea09a110fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5980e0eb78e4140d97b2b761f1b09770') in 0.022242 seconds 
+  Import took 0.026540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd.fbx
+  artifactKey: Guid(2eccd238b14972444987e010fc9f0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd.fbx using Guid(2eccd238b14972444987e010fc9f0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6099d1a309019791c3addfe6c69fbd8') in 0.019501 seconds 
+  Import took 0.023435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Idle_to_Shield_Block.fbx
+  artifactKey: Guid(7ee51cd7f3b589f49b9bd0de0522eca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Idle_to_Shield_Block.fbx using Guid(7ee51cd7f3b589f49b9bd0de0522eca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c637d244a402268771e1fa2da31cda') in 0.010556 seconds 
+  Import took 0.015580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd_R.fbx
+  artifactKey: Guid(b544090f1de0d6a4b8404339dc89ab78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd_R.fbx using Guid(b544090f1de0d6a4b8404339dc89ab78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa6766b82eed0cfb2b6f6284ec3ee06') in 0.021061 seconds 
+  Import took 0.026290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Fwd_L_45.fbx
+  artifactKey: Guid(d137ed44d487b714ab626e9eed97b152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Fwd_L_45.fbx using Guid(d137ed44d487b714ab626e9eed97b152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f97c529b0de74d070d4845899b35ce0') in 0.017361 seconds 
+  Import took 0.021754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Heavy02.fbx
+  artifactKey: Guid(c2e77f74f64db5641b5023c660dd6c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Heavy02.fbx using Guid(c2e77f74f64db5641b5023c660dd6c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27395a7a8687aedd2e0b3a225899b904') in 0.017074 seconds 
+  Import took 0.021560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Walk_Bwd.fbx
+  artifactKey: Guid(39905c573479a9349b15eec13a96a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Walk_Bwd.fbx using Guid(39905c573479a9349b15eec13a96a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc86b806cff311e30de83557efb1e0') in 0.015724 seconds 
+  Import took 0.020056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd_R.fbx
+  artifactKey: Guid(a5f6f3617124ee3479d7b6fb25b4c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd_R.fbx using Guid(a5f6f3617124ee3479d7b6fb25b4c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08f391ca08ee25f07e9c19a2ca67d60') in 0.021187 seconds 
+  Import took 0.025527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd_L.fbx
+  artifactKey: Guid(cad0b23826ff4214b8def6a944375f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd_L.fbx using Guid(cad0b23826ff4214b8def6a944375f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65867698142dec1ead83a3ecd7857f19') in 0.023592 seconds 
+  Import took 0.027788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_LF.fbx
+  artifactKey: Guid(33e71573d304b04418b631d9fb9751ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_LF.fbx using Guid(33e71573d304b04418b631d9fb9751ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3756262ecd900955f8f4f0c5457f932b') in 0.029445 seconds 
+  Import took 0.033609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Bwd_L_45.fbx
+  artifactKey: Guid(199e1d99785658b4c8f5f99ddfadc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Bwd_L_45.fbx using Guid(199e1d99785658b4c8f5f99ddfadc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c830878068f0727bfda994289b0fe2f') in 0.017584 seconds 
+  Import took 0.021395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Walk_Fwd.fbx
+  artifactKey: Guid(58733226c6ea6144d951f3992ca4214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Crouch_Walk_Fwd.fbx using Guid(58733226c6ea6144d951f3992ca4214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d00c284b6223316e913b56d580e2526') in 0.037479 seconds 
+  Import took 0.041715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_LB.fbx
+  artifactKey: Guid(997fb05d884407445bf3ca48804cd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_LB.fbx using Guid(997fb05d884407445bf3ca48804cd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee3648e07cef1d739bca7d0c8c0beea') in 0.025905 seconds 
+  Import took 0.029907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd_L.fbx
+  artifactKey: Guid(825a76e81c9cca24bbc63a2793e7f5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd_L.fbx using Guid(825a76e81c9cca24bbc63a2793e7f5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812f76bcf0a5c0c9239a6caf8189bacf') in 0.022994 seconds 
+  Import took 0.027578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash01.fbx
+  artifactKey: Guid(aeea3bce4a091d04bbc1460c11374559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Slash01.fbx using Guid(aeea3bce4a091d04bbc1460c11374559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd77d2b9972ac9d81d4266151435b74') in 0.019848 seconds 
+  Import took 0.023956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_bwd.fbx
+  artifactKey: Guid(1b78f78c5d3aebf4fb52ffbad76ff800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_bwd.fbx using Guid(1b78f78c5d3aebf4fb52ffbad76ff800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd970c6394f966aa30b7967ac8dc608a') in 0.019416 seconds 
+  Import took 0.023460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Enter.fbx
+  artifactKey: Guid(fd8ca9b4335b4cd49886e010d55baf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Enter.fbx using Guid(fd8ca9b4335b4cd49886e010d55baf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55c5d36fd827892d0c72da169120eeb') in 0.038175 seconds 
+  Import took 0.042792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Exit.fbx
+  artifactKey: Guid(6b5e606a8ca1b4d4a9f17d32f4905ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Exit.fbx using Guid(6b5e606a8ca1b4d4a9f17d32f4905ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e032aa603025330be6f407715a43c0ab') in 0.021845 seconds 
+  Import took 0.025758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd_L.fbx
+  artifactKey: Guid(cd5f79ef64a373c42937980240b36407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Bwd_L.fbx using Guid(cd5f79ef64a373c42937980240b36407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6ee97bec3827ee1c9c8d796879a47d') in 0.027333 seconds 
+  Import took 0.031319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd.fbx
+  artifactKey: Guid(12e14e99e70dd2348b5936e0ec57637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Bwd.fbx using Guid(12e14e99e70dd2348b5936e0ec57637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daff2c85ae38d621e3c25993207269e') in 0.029168 seconds 
+  Import took 0.034255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_RB.fbx
+  artifactKey: Guid(34ba30651711bff44acc5927f444d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_RB.fbx using Guid(34ba30651711bff44acc5927f444d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90ac08475e714f7549b91a53f58507') in 0.022508 seconds 
+  Import took 0.026435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Fwd_R_45.fbx
+  artifactKey: Guid(a122507d55e7fbb40886193643a3da66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Fwd_R_45.fbx using Guid(a122507d55e7fbb40886193643a3da66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d73c83e902e38673e6f793400e12949') in 0.015721 seconds 
+  Import took 0.018900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_R.fbx
+  artifactKey: Guid(a9200bec653dc274592551a124b4769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_R.fbx using Guid(a9200bec653dc274592551a124b4769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b7087b72deaf58c61fcc2b69aa0eed') in 0.009407 seconds 
+  Import took 0.013345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_RF.fbx
+  artifactKey: Guid(6002de459453f4c4d9d9af272502404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_RF.fbx using Guid(6002de459453f4c4d9d9af272502404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a3b523a162ee278541f1c6e9b91419') in 0.017288 seconds 
+  Import took 0.021676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Run_Fwd.fbx
+  artifactKey: Guid(fd9551d891a7769418c262879afee2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Run_Fwd.fbx using Guid(fd9551d891a7769418c262879afee2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba285f1d6a1125ad6d9510cbbf07dd51') in 0.009441 seconds 
+  Import took 0.013582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Hit.fbx
+  artifactKey: Guid(8b9f8e20e0cac2c48b54408039655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Hit.fbx using Guid(8b9f8e20e0cac2c48b54408039655acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a23f0dd4957d747f7220c0f788bf70') in 0.025981 seconds 
+  Import took 0.030642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Idle.fbx
+  artifactKey: Guid(8e3aece1508080a4dad9d7091339f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Shield_Block_Idle.fbx using Guid(8e3aece1508080a4dad9d7091339f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ec1e34d726830a715a09484670739a') in 0.023199 seconds 
+  Import took 0.027703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Bwd_R_45.fbx
+  artifactKey: Guid(798eccba168745d49a1eae77ffc097c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Bwd_R_45.fbx using Guid(798eccba168745d49a1eae77ffc097c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2b5bc7f8b754cdbfaf6ecb7439e340') in 0.037249 seconds 
+  Import took 0.042028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd.fbx
+  artifactKey: Guid(2ae92671e7355424694006d30896cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Crouch_Fwd.fbx using Guid(2ae92671e7355424694006d30896cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddcae3500b4b474590515fd8223bf9d') in 0.026836 seconds 
+  Import took 0.031438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001498 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd_L.fbx
+  artifactKey: Guid(df999a0e1b9dffe4394e5dc4798d1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd_L.fbx using Guid(df999a0e1b9dffe4394e5dc4798d1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27024a85e9279f8534e818d00efa6ffa') in 0.017434 seconds 
+  Import took 0.021801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd_R.fbx
+  artifactKey: Guid(4becca7c7d346bf4a9ebc2c6853a8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_Fwd_R.fbx using Guid(4becca7c7d346bf4a9ebc2c6853a8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd5e68eeb89144598d11e893f8d69f9') in 0.008995 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.695608 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_LB.fbx
+  artifactKey: Guid(0964b981930d1764a9878ceb23af8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_LB.fbx using Guid(0964b981930d1764a9878ceb23af8a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69a69ccb0e4f3260d0a6857210fb216') in 0.020582 seconds 
+  Import took 0.024691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_LF.fbx
+  artifactKey: Guid(eda55237022f394418e093f05f9742d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_LF.fbx using Guid(eda55237022f394418e093f05f9742d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df4796057d1ce21b855e5795d53569a') in 0.020640 seconds 
+  Import took 0.024216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.827918 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_RB.fbx
+  artifactKey: Guid(262b734f5cebdc14eabd63989e6add44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_RB.fbx using Guid(262b734f5cebdc14eabd63989e6add44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb27ca243a507bbf8830f0b9c553e741') in 0.027521 seconds 
+  Import took 0.031814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Unequip.fbx
+  artifactKey: Guid(09bb12681d62f1040b16954e60e01e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Unequip.fbx using Guid(09bb12681d62f1040b16954e60e01e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fc5fa8e27115aa1f2dca4f37ee5653') in 0.025454 seconds 
+  Import took 0.029705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Walk_Bwd.fbx
+  artifactKey: Guid(83165a5fddc888744a6b02dced5b61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Walk_Bwd.fbx using Guid(83165a5fddc888744a6b02dced5b61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd219ba11ef78bba5e85426e14353408') in 0.034281 seconds 
+  Import took 0.037939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_RF.fbx
+  artifactKey: Guid(b605ade6456b7764e99f65f83c3fd762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Strf_Walk_RF.fbx using Guid(b605ade6456b7764e99f65f83c3fd762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a773a8a56adb059f8f25f85287a29bb') in 0.029828 seconds 
+  Import took 0.033257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Walk_Fwd.fbx
+  artifactKey: Guid(bfcb2aede537b8645b8a78b4269c5fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Walk_Fwd.fbx using Guid(bfcb2aede537b8645b8a78b4269c5fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3227fbd5437d4d6ac5a82e1becf52') in 0.019515 seconds 
+  Import took 0.023425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Throw_Away.fbx
+  artifactKey: Guid(d74d4a4159dacfc4dadd059fb5fb7bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmplifyAnimationPack/Animations/SwordAndShield/SK_Mannequin@SS_Throw_Away.fbx using Guid(d74d4a4159dacfc4dadd059fb5fb7bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78633ba0fb18fe74fe8685843e724fc8') in 0.025246 seconds 
+  Import took 0.030262 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Download\UnityProject\NewProject\CurrentProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 3.174700 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.820000 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 743.038978 seconds.
+  path: Assets/Player.controller
+  artifactKey: Guid(5004484cc7a02f5449bfae890ec9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.controller using Guid(5004484cc7a02f5449bfae890ec9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88fd535aa7f9942e1fc9d6604f66fbc') in 0.026107 seconds 
+  Import took 0.031583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Download\UnityProject\NewProject\CurrentProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.750000 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.485200 ms  DeleteObjects: 0.029500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004350 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Download\UnityProject\NewProject\CurrentProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.828700 ms (FindLiveObjects: 0.173900 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.582500 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Download\UnityProject\NewProject\CurrentProject\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 3.123900 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.852200 ms  DeleteObjects: 0.016300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

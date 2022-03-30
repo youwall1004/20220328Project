@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4F35D74C-17A8-B1E8-9142-5153AB9B1BEC}</ProjectGuid>
+    <ProjectGuid>{47640B11-43A9-4676-DC00-1DD35BF23903}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AmplifyAnimationPack</AssemblyName>
@@ -56,59 +56,59 @@
     <Analyzer Include="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CrawlIdleStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPPreferences.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\IInteractable.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ThrowableClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\FallingStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPStartScreen.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\IdleStateBehavior.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BigClimbState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarHangClimbStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\PushObjectClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BarHangState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\AttackState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarWalkTurnStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\HangIdleStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\LeverWallClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\CoverObjectClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\DoorClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\ShortClimbState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CoverMoveStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\VersionInfo.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\GroundedState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\LadderState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\BarObjectClass.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\LadderObjectClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\JumpState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarHangIdleStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ObstacleClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BarWalkState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\WallPointClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ClimbObjectClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CoverIdleStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\HardTurnStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarHangClimbStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterClass.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\CrawlState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\PushState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\CoverState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\CharacterStateBase.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\UI\CharacterUIBehavior.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\RollState.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Materials\TextureScroller.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\HangState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\AttackStateBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\DodgeState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\InteractState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPStartup.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterAnimatorBehavior.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CoverIdleStateBehavior.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPPackageManagerHelper.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BumpState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\LeverFloorClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\EnemyClass.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\VaultState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\PickableClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPStartScreen.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarWalkTurnStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\DoorClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\WallPointClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\ShortClimbState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\AttackStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\GroundedState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\LadderState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\CoverState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\AttackState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\CoverObjectClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\BarObjectClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ClimbObjectClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ObstacleClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\CharacterStateBase.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterAnimatorBehavior.cs" />
     <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\FallingState.cs" />
-    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\HardTurnStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPPreferences.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BarHangState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\VersionInfo.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\UI\CharacterUIBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\LeverFloorClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\VaultState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\HangIdleStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BarWalkState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\PushState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\FallingStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\IdleStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CoverMoveStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\JumpState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\HangState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\BumpState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\PickableClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\CrawlIdleStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\IInteractable.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\PushObjectClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\InteractState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\EnemyClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\ThrowableClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\CharacterStates\DodgeState.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Interactables\LeverWallClass.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Character\AnimStatesBehavior\BarHangIdleStateBehavior.cs" />
+    <Compile Include="Assets\AmplifyAnimationPack\Scripts\Editor\AAPStartup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AmplifyAnimationPack\AmplifyAnimationPack.asmdef" />

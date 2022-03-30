@@ -6,59 +6,99 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     public float rotatespeed;
-    public float JumpForce;
+    private float moveSpeed;
+
     public bool isGrounded;
 
-    private Rigidbody characterRigidbody;
+    public float JumpForce;
+    private float JumpDelay;
+    public bool jumpAble;
 
-    Vector2 jumplimit = new Vector2(0, 2f);
+    private float jumpMax = 2.0f;
+
+    private Rigidbody characterRigidbody;
+    private Animator animator;
 
     void Start()
     {
         characterRigidbody = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
-        Move();
-        Jump();
+        PlayerMove();
+        PlayerJump();
         isGround();
     }
 
-    void Move()
+    void Update()
+    {
+        
+    }
+
+    void PlayerMove()
     {
         float inputX = Input.GetAxis("Horizontal");
         float inputZ = Input.GetAxis("Vertical");
 
-        //부드러운 움직임을 구현하고 싶다면 GetAxis, 딱딱한 움직임은 GetAxisRaw
+        moveSpeed = Mathf.Clamp(moveSpeed, 0f, 0.5f);
 
-        //Vector3 velocity = new Vector3(inputX, 0, inputZ);
-        //velocity *= speed;
-        //characterRigidbody.velocity = velocity;
+        //부드러운 움직임을 구현하고 싶다면 GetAxis, 딱딱한 움직임은 GetAxisRaw
 
         Vector3 dir = new Vector3(inputX, 0, inputZ);
 
+        animator.SetFloat("Velocity.X", inputX);
+        animator.SetFloat("Velocity.Z", inputZ);
+
         if (!(inputX == 0 && inputZ == 0))
         {
+            moveSpeed += Time.deltaTime;
+            animator.SetFloat("MoveSpeed", moveSpeed);
+
             //이동과 회전을 동시에 처리
             transform.position += dir * speed * Time.deltaTime;
             //회전하는 부분
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(dir), Time.deltaTime * rotatespeed);
         }
+        else
+        {
+            moveSpeed -= Time.deltaTime;
+            animator.SetFloat("MoveSpeed", moveSpeed);
+        }
     }
 
-    void Jump()
+    void PlayerJump()
     {
-        //transform.localPosition = ClampPosition(transform.localPosition);
+        animator.SetFloat("JumpHeight", transform.position.y);
 
-        if (Input.GetKey(KeyCode.Space)&& isGrounded == true)
+        if (Input.GetKey(KeyCode.Space) && isGrounded == true)
         {
-            characterRigidbody.AddForce(Vector3.up * JumpForce);
+            if(jumpAble==true)
+            {
+                characterRigidbody.AddForce(Vector3.up * JumpForce);
+                animator.SetBool("Jump", true);
+            }
+        }
+
+        //점프 높이 제한
+        if (jumpMax <= transform.localPosition.y)
+        {
+            animator.SetBool("Jump", false);
+            characterRigidbody.AddForce(Vector3.down * (-Physics.gravity.y*2));
+        }
+
+        if(JumpDelay>=0.3f)
+        {
+            jumpAble = true;
+            return;
         }
     }
 
     void isGround()
     {
+        JumpDelay = Mathf.Clamp(JumpDelay, 0, 0.5f);
+
         RaycastHit hit;
 
         Debug.DrawRay(transform.position, Vector3.down * 0.3f, Color.red);
@@ -66,15 +106,25 @@ public class PlayerMovement : MonoBehaviour
         {
             if (hit.transform.tag == "Ground")
             {
+                JumpDelay += Time.deltaTime;
+
                 isGrounded = true;
+                animator.SetBool("isGrounded", true);
                 return;
             }
         }
         isGrounded = false;
+        jumpAble = false;
+        JumpDelay = 0;
+        animator.SetBool("isGrounded", false);
+        animator.SetBool("Jump", false);
     }
 
-    //public Vector3 ClampPosition(Vector3 position)
-    //{
-    //    return new Vector3(Mathf.Clamp(position.y, -jumplimit.y, jumplimit.y), 0, 0);
-    //}
+    void Attack()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            animator.SetTrigger("Attack");
+        }
+    }
 }
