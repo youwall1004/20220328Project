@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         float inputX = Input.GetAxis("Horizontal");
         float inputZ = Input.GetAxis("Vertical");
 
-        moveSpeed = Mathf.Clamp(moveSpeed, 0f, 0.5f);
+        moveSpeed = Mathf.Clamp(moveSpeed, 0f, 0.2f);
 
         //부드러운 움직임을 구현하고 싶다면 GetAxis, 딱딱한 움직임은 GetAxisRaw
 
@@ -118,13 +118,5 @@ public class PlayerMovement : MonoBehaviour
         JumpDelay = 0;
         animator.SetBool("isGrounded", false);
         animator.SetBool("Jump", false);
-    }
-
-    void Attack()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            animator.SetTrigger("Attack");
-        }
     }
 }
