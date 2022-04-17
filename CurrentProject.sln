@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifyAnimationPack", "Amp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{86106C50-B881-31B8-75D6-D39923FD968B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1FC489AD-3D56-A9E9-421B-194532F16A35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{86106C50-B881-31B8-75D6-D39923FD968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86106C50-B881-31B8-75D6-D39923FD968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86106C50-B881-31B8-75D6-D39923FD968B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC489AD-3D56-A9E9-421B-194532F16A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC489AD-3D56-A9E9-421B-194532F16A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC489AD-3D56-A9E9-421B-194532F16A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC489AD-3D56-A9E9-421B-194532F16A35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

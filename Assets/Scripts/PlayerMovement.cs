@@ -2,19 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ECharacterState
+{
+    Stand, Move, Jump, Attack
+}
+
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    public float rotatespeed;
-    private float moveSpeed;
+    //[EnumFlags] 
+    public ECharacterState state;
 
-    public bool isGrounded;
+    [SerializeField] float speed;
+    [SerializeField] float rotatespeed;
+    [SerializeField] float moveSpeed;
 
-    public float JumpForce;
-    public float JumpDelay;
-    public bool jumpAble;
+    [SerializeField] float JumpForce;
 
-    private float jumpMax = 2.0f;
+    float JumpDelay;
+    float jumpMax = 2.0f;
+
+    float chargeTimer;
+
+    [SerializeField] bool sheathe;
+    [SerializeField] bool charge;
+    [SerializeField] bool isGrounded;
+    [SerializeField] bool jumpAble;
 
     private Rigidbody characterRigidbody;
     private Animator animator;
@@ -30,6 +42,22 @@ public class PlayerMovement : MonoBehaviour
         PlayerMove();
         PlayerJump();
         isGround();
+    }
+
+    void Update()
+    {
+        Attack();
+        Sheathe();
+        ChargeAtk();
+        animator.SetBool("Sheathe", sheathe);
+    }
+
+    void LateUpdate()
+    {
+        if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
+        {
+            state = ECharacterState.Stand;
+        }
     }
 
     void PlayerMove()
@@ -48,6 +76,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (!(inputX == 0 && inputZ == 0))
         {
+            //움직임 state 설정
+            state = ECharacterState.Move;
+
             moveSpeed += Time.deltaTime;
             animator.SetFloat("MoveSpeed", moveSpeed);
 
@@ -69,10 +100,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && isGrounded == true)
         {
-            if(jumpAble==true)
+            if(state != ECharacterState.Attack)
             {
-                characterRigidbody.AddForce(Vector3.up * JumpForce);
-                animator.SetBool("Jump", true);
+                state = ECharacterState.Jump;
+
+                if (jumpAble == true)
+                {
+                    characterRigidbody.AddForce(Vector3.up * JumpForce);
+                    animator.SetBool("Jump", true);
+                }
             }
         }
 
@@ -80,10 +116,10 @@ public class PlayerMovement : MonoBehaviour
         if (jumpMax <= transform.localPosition.y)
         {
             animator.SetBool("Jump", false);
-            characterRigidbody.AddForce(Vector3.up * (Physics.gravity.y*7));
+            characterRigidbody.AddForce(Vector3.up * (Physics.gravity.y * 7));
         }
 
-        if(JumpDelay>=0.3f)
+        if (JumpDelay >= 0.3f)
         {
             jumpAble = true;
         }
@@ -93,7 +129,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    
     void isGround()
     {
         JumpDelay = Mathf.Clamp(JumpDelay, 0, 0.5f);
@@ -116,5 +151,55 @@ public class PlayerMovement : MonoBehaviour
         JumpDelay = 0;
         animator.SetBool("isGrounded", false);
         animator.SetBool("Jump", false);
+    }
+
+    void Sheathe()
+    {
+        if(state == 0)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (!sheathe)
+                {
+                    sheathe = true;
+                }
+                else
+                {
+                    sheathe = false;
+                }
+
+                animator.SetTrigger("SheatheButton");
+            }
+        }
+    }
+
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            state = ECharacterState.Attack;
+            animator.SetTrigger("Attack");
+        }
+        else if (Input.GetMouseButtonUp(0) && chargeTimer >= 0.5f)
+        {
+            state = ECharacterState.Attack;
+            animator.SetTrigger("Upper");
+        }
+    }
+
+    void ChargeAtk()
+    {
+        animator.SetFloat("Charge", chargeTimer);
+
+        if (Input.GetMouseButton(0))
+        {
+            charge = true;
+            chargeTimer += Time.deltaTime;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            charge = false;
+            chargeTimer = 0;
+        }
     }
 }
