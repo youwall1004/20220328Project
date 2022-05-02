@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Attack();
-        Sheathe();
+        //Sheathe();
         ChargeAtk();
         animator.SetBool("Sheathe", sheathe);
     }

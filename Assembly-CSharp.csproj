@@ -61,6 +61,7 @@
     <Compile Include="Assets\JumpControl.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\EnumFlagsAttribute.cs" />
+    <Compile Include="Assets\Scripts\Map\Stand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ATART\Shader\UnlitShadow.shader" />
